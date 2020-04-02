@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-02T03:50:46" hostname="ganesh-X555LD" time="0.003">
+<testsuite name="com.bridgelabz.userregistration.UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-02T04:23:55" hostname="ganesh-X555LD" time="0.003">
   <properties/>
-  <testcase name="registerFirstName_givenFirstName_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.003"/>
+  <testcase name="registerLastName_givenLastName_shouldReturnTrue" classname="com.bridgelabz.userregistration.UserRegistrationTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

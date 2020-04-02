@@ -10,7 +10,15 @@ public class UserRegistrationTest
     public void registerFirstName_givenFirstName_shouldReturnTrue()
     {
         UserRegistration userregister=new UserRegistration();
-        boolean result=userregister.registerFirstName("Xyz");
+        boolean result=userregister.registerFirstName("Ganesh");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void registerLastName_givenLastName_shouldReturnTrue()
+    {
+        UserRegistration userregister=new UserRegistration();
+        boolean result=userregister.registerLastName("Ghodke");
         Assert.assertTrue(result);
     }
 }
