@@ -1,6 +1,4 @@
 package com.bridgelabz.userregistration;
-
-
 public class UserRegistration
 {
     public static final String PATTERN_OF_FIRSTNAME="^[A-Z][a-z]{2,}$";

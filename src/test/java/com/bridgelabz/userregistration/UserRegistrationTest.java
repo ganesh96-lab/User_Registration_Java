@@ -1,9 +1,6 @@
 package com.bridgelabz.userregistration;
-
 import org.junit.Assert;
 import org.junit.Test;
-
-
 public class UserRegistrationTest
 {
     @Test
@@ -13,7 +10,6 @@ public class UserRegistrationTest
         boolean result=userregister.registerFirstName("Ganesh");
         Assert.assertTrue(result);
     }
-
     @Test
     public void registerLastName_givenLastName_shouldReturnTrue()
     {
@@ -21,7 +17,6 @@ public class UserRegistrationTest
         boolean result=userregister.registerLastName("Ghodke");
         Assert.assertTrue(result);
     }
-
     @Test
     public void registerEmail_givenEmail_shouldReturnTrue()
     {
@@ -29,12 +24,10 @@ public class UserRegistrationTest
         boolean result=userregister.registerEmail("ganesh123@gmail.com");
         Assert.assertTrue(result);
     }
-
     @Test
-    public void registerMobleNo_givenMobileNo_shouldReturnTrue()
-    {
-        UserRegistration userregister=new UserRegistration();
-       boolean result=userregister.registerMobileNo("91 9604830174");
-       Assert.assertTrue(result);
+    public void registerMobleNo_givenMobileNo_shouldReturnTrue() {
+        UserRegistration userregister = new UserRegistration();
+        boolean result = userregister.registerMobileNo("91 9604830174");
+        Assert.assertTrue(result);
     }
 }
