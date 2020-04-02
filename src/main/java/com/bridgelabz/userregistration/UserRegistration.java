@@ -7,6 +7,9 @@ public class UserRegistration
     public static final String PATTERN_OF_LASTNAME="^[A-Z][a-z]{2,}$";
     public static final String PATTERN_OF_EMAIL="^[0-9a-zA-Z]+([_+-.][0-9a-zA-Z]+)*+" +
                                                 "@[0-9a-zA-Z]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?$";
+
+    public static final String PATTERN_OF_MOBILENO="^[0-9]{1,3} [0-9]{10}$";
+
     public boolean registerFirstName(String firstName)
     {
         return firstName.matches(PATTERN_OF_FIRSTNAME);
@@ -18,5 +21,9 @@ public class UserRegistration
     public boolean registerEmail(String emailId)
     {
         return emailId.matches(PATTERN_OF_EMAIL);
+    }
+    public boolean registerMobileNo(String moNumber)
+    {
+        return moNumber.matches(PATTERN_OF_MOBILENO);
     }
 }
