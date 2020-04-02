@@ -25,9 +25,18 @@ public class UserRegistrationTest
         Assert.assertTrue(result);
     }
     @Test
-    public void registerMobleNo_givenMobileNo_shouldReturnTrue() {
+    public void registerMobleNo_givenMobileNo_shouldReturnTrue()
+    {
         UserRegistration userregister = new UserRegistration();
         boolean result = userregister.registerMobileNo("91 9604830174");
         Assert.assertTrue(result);
+    }
+
+    @Test
+    public void registerPassword_ifPasswordShort_shouldReturnFalse()
+    {
+        UserRegistration userregister=new UserRegistration();
+        boolean result=userregister.registerPassword("1234");
+        Assert.assertFalse(result);
     }
 }
