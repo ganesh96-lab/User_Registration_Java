@@ -7,7 +7,7 @@ public class UserRegistration
                                                 "@[0-9a-zA-Z]+[.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?$";
 
     public static final String PATTERN_OF_MOBILENO="^[0-9]{1,3} [0-9]{10}$";
-    public static final String PATTERN_OF_PASSWORD="^(?=.*[A-Z]).{8,}$";
+    public static final String PATTERN_OF_PASSWORD="^(?=.\\d)(?=.*[A-Z]).{8,}$";
 
     public boolean registerFirstName(String firstName)
     {
