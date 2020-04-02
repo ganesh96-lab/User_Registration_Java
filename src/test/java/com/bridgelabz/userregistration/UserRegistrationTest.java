@@ -17,6 +17,7 @@ public class UserRegistrationTest
         boolean result=userregister.registerLastName("Ghodke");
         Assert.assertTrue(result);
     }
+
     @Test
     public void registerEmail_givenEmail_shouldReturnTrue()
     {
